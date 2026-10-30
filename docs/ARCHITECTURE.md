@@ -8,6 +8,7 @@ GreenSpace Lite follows a lightweight, modular MVC (Model-View-Controller) inspi
 - **Templates:** Jinja2 templating engine renders dynamic HTML pages directly on the server side.
 
 ## 2. Project Folder Structure
+```text
 greenspace-lite/
 ├── app.py                # Main application entry point & routes
 ├── database.db           # SQLite database file (local)
