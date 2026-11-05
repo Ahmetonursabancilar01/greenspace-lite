@@ -7,7 +7,7 @@ GreenSpace Lite follows a lightweight, modular MVC (Model-View-Controller) inspi
 - **Database & ORM:** SQLite3 acts as the relational database, managed via lightweight SQL queries or an ORM layer for portability and zero-configuration setup.
 - **Templates:** Jinja2 templating engine renders dynamic HTML pages directly on the server side.
 
-## 2. Project Folder Structure
+## 2. Project Directory Structure
 ```text
 greenspace-lite/
 ├── app.py                # Main application entry point & routes
@@ -20,4 +20,7 @@ greenspace-lite/
     ├── ENVIRONMENT.md
     ├── BACKLOG.md
     ├── UX.md
-    └── ARCHITECTURE.md
+    ├── ARCHITECTURE.md
+    ├── TEAM_AGREEMENT.md
+    ├── GLOSSARY_AND_RISKS.md
+    └── RETROSPECTIVE.md
