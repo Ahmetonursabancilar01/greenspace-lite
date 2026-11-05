@@ -1,7 +1,7 @@
 # Sprint 0 Review & Retrospective
 
 ## 1. Sprint 0 Review (Evaluation of Deliverables)
-- **Infrastructure & Setup:** Successfully established the project architecture, initialized the private GitHub repository, and verified local environment tooling (Python 3.10+, Flask, SQLite3, and pytest).
+- **Infrastructure & Setup:** Successfully established the project architecture, initialized the  GitHub repository, and verified local environment tooling (Python 3.10+, Flask, SQLite3, and pytest).
 - **Core Documentation:** Completed all foundational Sprint 0 artifacts, including product goals, target users, scope boundaries, UI/UX guidelines, architectural design, process methodology (Scrumban), and the initial prioritized product backlog with acceptance criteria and quality scenarios.
 - **Workflow Readiness:** Set up version control conventions and task tracking mechanisms to ensure a smooth transition into implementation.
 
