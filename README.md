@@ -50,7 +50,7 @@ On macOS/Linux, activate the virtual environment with `source venv/bin/activate`
 | First reviewed pull request | [PR #8](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/8) |
 | Test file | [PR #10](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/10) |
 | CI workflow and passing result | [PR #11](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/11) |
-| Issue board | [GitHub Projects board]([https://github.com/users/Ahmetonursabancilar01/projects/4]) |
+| Issue board | [GitHub Projects board](https://github.com/users/Ahmetonursabancilar01/projects/4) |
 | Sprint 0 review and retrospective | [docs/RETROSPECTIVE.md](docs/RETROSPECTIVE.md) |
 
 ## 7. Access
