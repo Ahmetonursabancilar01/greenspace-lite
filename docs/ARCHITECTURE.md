@@ -10,17 +10,27 @@ GreenSpace Lite follows a lightweight, modular MVC (Model-View-Controller) inspi
 ## 2. Project Directory Structure
 ```text
 greenspace-lite/
-├── app.py                # Main application entry point & routes
-├── database.db           # SQLite database file (local)
-├── requirements.txt      # Python dependencies (Flask, etc.)
-├── templates/            # HTML views (dashboard, add_plant, etc.)
-├── static/               # CSS stylesheets & client-side assets
-└── docs/                 # Project documentation (Sprint 0 artifacts)
-    ├── PROCESS.md
-    ├── ENVIRONMENT.md
-    ├── BACKLOG.md
-    ├── UX.md
-    ├── ARCHITECTURE.md
-    ├── TEAM_AGREEMENT.md
-    ├── GLOSSARY_AND_RISKS.md
-    └── RETROSPECTIVE.md
+├── .github/
+│   └── workflows/
+│       └── ci.yml            # GitHub Actions: installs dependencies, runs pytest (exists)
+├── docs/                     # Sprint 0 documentation (exists)
+│   ├── PROCESS.md
+│   ├── ENVIRONMENT.md
+│   ├── BACKLOG.md
+│   ├── UX.md
+│   ├── ARCHITECTURE.md
+│   ├── TEAM_AGREEMENT.md
+│   ├── GLOSSARY_AND_RISKS.md
+│   └── RETROSPECTIVE.md
+├── tests/
+│   └── test_smoke.py         # Smoke test (exists)
+├── .gitignore                # Keeps venv, *.db and .env out of Git (exists)
+├── README.md                 # Entry point and deliverables index (exists)
+├── requirements.txt          # Python dependencies (exists)
+├── app.py                    # Application entry point and routes (planned, Sprint 1)
+├── templates/                # Jinja2 HTML views (planned, Sprint 1)
+├── static/                   # CSS and client-side assets (planned, Sprint 1)
+└── database.db               # SQLite file, created locally at runtime, not committed
+```
+
+Items marked "exists" are in the repository now. Items marked "planned" will be added during Sprint 1.
