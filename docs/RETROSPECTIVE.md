@@ -10,8 +10,20 @@
   - Clear architectural breakdown and scoping prevented scope creep.
   - Well-defined user stories and acceptance criteria made technical planning much easier.
 - **Areas for Improvement:** 
-  - Setting up automated CI/CD checks (GitHub Actions) earlier in the pipeline can catch build or test configuration issues faster.
+  -  CI could have been set up earlier. It was added at the end of Sprint 0 (PR #11) and passed on its first run.
 - **Action Plan for Sprint 1:** 
   - Begin hands-on backend development using Flask.
   - Implement user authentication (US01) and plant management features (US02, US03).
   - Write and execute automated unit tests (`pytest`) to validate functional requirements.
+  - Open every change as a pull request and merge only when CI is green. Evidence: green checks on each pull request.
+  - Add at least one pytest test for each user story. Evidence: tests in the tests/ folder.
+  
+  ## 3. Evidence
+
+| Item | Link |
+|---|---|
+| First reviewed pull request (.gitignore) | [PR #8](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/8) |
+| Smoke test | [PR #10](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/10) |
+| CI workflow and passing result | [PR #11](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/11) |
+| README with setup and deliverables index | [PR #12](https://github.com/Ahmetonursabancilar01/greenspace-lite/pull/12) |
+| Issue board | [GitHub Projects board](https://github.com/users/Ahmetonursabancilar01/projects/4) |
